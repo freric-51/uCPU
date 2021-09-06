@@ -47,6 +47,10 @@
 *.cmd
 .tmp_versions/
 modules.order
-Module.symvers
+**/build/*
+**/debug/*
+**/dist/*
+**/nbproject/*
+
 Mkfile.old
 dkms.conf
