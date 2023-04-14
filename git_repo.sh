@@ -30,6 +30,7 @@ pull)
 	;;
 
 push)
+    cd "$dir_base$dir_repo"
 	#cd "$dir_base$dir_repo"
     git commit -a -m "syncs"
     #git push REPO main
@@ -37,6 +38,7 @@ push)
 	;;
 
 branchs)
+    cd "$dir_base$dir_repo"
     git branch
     git branch -r
     ;;
