@@ -3,7 +3,7 @@ dir_base="/home/ric/Documentos/code/GitHub"
 # dir_base="/media/Dados/Documentos/code/GitHub"
 dir_repo="/uCPU"
 
-clear
+echo -e "\n\n\n\n\n"
 
 case $1 in
 clone)
@@ -39,8 +39,7 @@ push)
 
 branchs)
     cd "$dir_base$dir_repo"
-    git branch
-    git branch -r
+    git branch -vva
     ;;
 
 esac
