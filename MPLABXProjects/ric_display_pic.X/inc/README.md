@@ -2,7 +2,7 @@
 
 ## To copy what is necessary
 
-| | |
+| | In my case ... |
 |----|----|
 **From** | /opt/microchip/xc8/v2.32/pic/include/
 **To**   |  /home/ric/Documents/code/MPLABXProjects/ric_display_pic.X/inc/include
