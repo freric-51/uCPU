@@ -1,3 +1,9 @@
+# ignoro eu mesmo
+
+git_repo.sh
+.gitignore
+atalho.sh
+
 # Prerequisites
 *.d
 
